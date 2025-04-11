@@ -8,6 +8,7 @@ def main():
         print(z, end=" ")
         z=z+z
         i=i+1
+        result=z
 
     ########################################
     # Do not delete the return statement
