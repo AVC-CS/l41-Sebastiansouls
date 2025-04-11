@@ -1,8 +1,9 @@
 def main():
     z=1
+    i=0
     N = int(input('Enter the number N: '))
     result = []
-    N=N+1
+    
     for i in range(N):
         print(z, end=" ")
         z=z+z
