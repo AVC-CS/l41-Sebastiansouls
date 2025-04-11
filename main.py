@@ -1,15 +1,18 @@
 def main():
-    z=1
-    i=0
     N = int(input('Enter the number N: '))
     result = []
-    
+    z=1
+    i=0
+    N=N+1
     for i in range(N):
-        
-        z=z+z
-        i=i+1
         result=z
         print(result, end=" ")
+        z=z+z
+        i=i+1
+
+        
+    
+    
 
     ########################################
     # Do not delete the return statement
