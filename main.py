@@ -5,10 +5,11 @@ def main():
     result = []
     
     for i in range(N):
-        print(z, end=" ")
+        
         z=z+z
         i=i+1
         result=z
+        print(result, end=" ")
 
     ########################################
     # Do not delete the return statement
