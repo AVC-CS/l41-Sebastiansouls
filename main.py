@@ -1,6 +1,6 @@
 import numbers
 
-from numpy import append
+# from numpy import append
 
 
 def main():
